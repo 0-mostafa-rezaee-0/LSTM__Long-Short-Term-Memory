@@ -141,7 +141,8 @@ Folder PATH listing
 |
 +---notebooks                     <-- Jupyter notebooks
 |       README.md                 <-- Documentation for the notebooks folder
-|       exploratory_analysis.ipynb <-- Sample notebook for data exploration
+|       01_data_exploration.ipynb <-- Notebook for data exploration
+|       02_model_training.ipynb   <-- Notebook for model training
 |
 +---scripts                       <-- Python scripts
 |       README.md                 <-- Documentation for the scripts folder
@@ -373,7 +374,8 @@ This guide creates a portable and reproducible Docker project template that lets
   - docker-compose.yml
   - requirements.txt
   - data_prep.py
-  - exploratory_analysis.ipynb
+  - 01_data_exploration.ipynb
+  - 02_model_training.ipynb
 
 ### 4.3. Step 3: Write the Dockerfile
 
@@ -506,7 +508,7 @@ You should see the expected output (for example, "hi").
 
 ### 4.11. Step 11: Work with Jupyter Notebooks in VS Code
 
-- Open exploratory_analysis.ipynb in VS Code.
+- Open 01_data_exploration.ipynb in VS Code.
 - In the top-right corner of the notebook, you should see a kernel with the same name as your project. If not, click the `Select Kerne`l button and choose the `Jupyter kernel` option. This will display a kernel with your project's name and the Python kernel specified in the Dockerfile. The libraries from the `requirements.txt` file, installed in the Docker container, will be automatically available for use.
 - You can now run and edit cells within the container.
 

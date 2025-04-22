@@ -4,7 +4,8 @@ This folder contains Jupyter notebooks for interactive data analysis and experim
 
 ## Contents
 
-- `exploratory_analysis.ipynb`: A sample notebook demonstrating exploratory data analysis techniques. This notebook shows how to load data, create visualizations, and perform initial statistical analysis within the Docker environment.
+- `01_data_exploration.ipynb`: A notebook for exploratory data analysis techniques. This notebook shows how to load data, create visualizations, and perform initial statistical analysis within the Docker environment.
+- `02_model_training.ipynb`: A notebook for training and evaluating machine learning models on the prepared data.
 
 ## Usage
 
